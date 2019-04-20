@@ -11,3 +11,32 @@
 
 @import 'vars';
 
+h1, h2, h3, h4, h5, h6, p, a, li {
+  font-family: @font-roboto;
+}
+
+/* ############### */
+/* ### General ### */
+/* ############### */
+// In general we don't want the body or paragraphs to have any outer bounds.
+body, p {
+  padding: 0;
+  margin: 0;
+}
+
+// In general we want to use Roboto font everywhere.
+h1, h2, h3, h4, h5, h6, p, a, li {
+  font-family: @font-roboto;
+}
+
+// Don't decorate links by default.
+a {
+  text-decoration: none;
+}
+
+// Make sections sectional by default
+section {
+
+  padding: 30px 0;
+}
+
