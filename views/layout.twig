@@ -13,8 +13,14 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="/favicon.ico">
 
+    <!-- Tracking and Analytics Tools -->
+    {% include 'analytics/google-analytics.twig' %}
+
     <!-- Stylesheets -->
     <link rel='stylesheet' href='/stylesheets/style.css'/>
+
+    <!-- Robots -->
+    <meta name="robots" content="index, follow">
   </head>
   <body>
     {% include 'components/header.twig' %}
