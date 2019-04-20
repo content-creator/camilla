@@ -17,6 +17,10 @@
     <link rel='stylesheet' href='/stylesheets/style.css'/>
   </head>
   <body>
+    {% include 'components/header.twig' %}
+
     {% block body %}{% endblock %}
+
+    {% include 'components/footer.twig' %}
   </body>
 </html>
