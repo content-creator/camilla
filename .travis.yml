@@ -1,0 +1,22 @@
+language: ruby
+
+######################
+### Docker service ###
+######################
+services:
+  - docker
+
+####################
+### Actual build ###
+####################
+script:
+  - docker build -t contentcreator/camilla .
+
+############################
+### Deploy to docker hub ###
+############################
+deploy:
+  provider: script
+  script: bash deploy/docker-push.sh
+  on:
+    branch: master
