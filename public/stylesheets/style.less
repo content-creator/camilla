@@ -1,43 +1,6 @@
-// Bootstrap Grid
-@import url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-grid.min.css');
+@import (inline) "../../node_modules/@klauke-enterprises/antonia/dist/style.css";
 
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto');
-
-// Font awesome
-@import url('https://use.fontawesome.com/releases/v5.7.2/css/solid.css');
-@import url('https://use.fontawesome.com/releases/v5.7.2/css/brands.css');
-@import url('https://use.fontawesome.com/releases/v5.7.2/css/fontawesome.css');
-
-@import 'vars';
-
-h1, h2, h3, h4, h5, h6, p, a, li {
-  font-family: @font-roboto;
-}
-
-/* ################## */
-/* ### Components ### */
-/* ################## */
 @import "components/footer";
-
-/* ############### */
-/* ### General ### */
-/* ############### */
-// In general we don't want the body or paragraphs to have any outer bounds.
-body, p {
-  padding: 0;
-  margin: 0;
-}
-
-// In general we want to use Roboto font everywhere.
-h1, h2, h3, h4, h5, h6, p, a, li {
-  font-family: @font-roboto;
-}
-
-// Don't decorate links by default.
-a {
-  text-decoration: none;
-}
 
 // Make sections sectional by default
 section {
