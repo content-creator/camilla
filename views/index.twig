@@ -2,8 +2,12 @@
 
 {% block body %}
 
-  <div class="container">
-    <h1>Welcome</h1>
-  </div>
+    {% include 'components/banner.twig' %}
+
+    {% include 'components/what-we-are.twig' %}
+
+    {% include 'components/partner.twig' %}
+
+    {% include 'components/contact.twig' %}
 
 {% endblock %}
