@@ -1,3 +1,4 @@
+@import "../../node_modules/@klauke-enterprises/antonia/dist/util/vars";
 @import (inline) "../../node_modules/@klauke-enterprises/antonia/dist/style.css";
 
 @import "components/footer";
@@ -9,3 +10,75 @@ section {
   padding: 30px 0;
 }
 
+#what-we-are {
+
+  padding: 50px 0;
+
+  img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    text-align: justify;
+  }
+}
+
+#partner {
+
+  background-color: @color-white-smoke;
+
+  h2 {
+    text-align: center;
+  }
+
+  img {
+    width: 80%;
+  }
+}
+
+#contact {
+
+  h2 {
+    text-align: center;
+  }
+
+  padding: 60px 0;
+
+  .form-container {
+
+    text-align: center;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+
+    iframe.hs-form-iframe {
+      width: 100% !important;
+    }
+  }
+}
+
+#banner {
+
+  background-image: url("/images/header.jpg");
+
+  height: 480px;
+  width: 100%;
+  background-size: 100% 480px;
+
+  @media screen and (max-width: @md-min) {
+    padding-top: 20px;
+    height: 300px;
+    background-size: 100% 300px;
+  }
+
+  @media screen and (max-width: @sm-min) {
+    height: 180px;
+    background-size: 100% 180px;
+  }
+}
