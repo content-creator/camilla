@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@klauke-enterprises/antonia": "1.7.0",
-    "cookie-parser": "~1.4.3",
+    "cookie-parser": "~1.4.5",
     "debug": "~2.6.9",
     "express": "~4.16.0",
     "helmet": "^3.16.0",
