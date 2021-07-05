@@ -8,7 +8,7 @@
   "dependencies": {
     "@klauke-enterprises/antonia": "1.7.0",
     "cookie-parser": "~1.4.3",
-    "debug": "~2.6.9",
+    "debug": "~4.3.2",
     "express": "~4.16.0",
     "helmet": "^3.16.0",
     "http-errors": "~1.6.2",
